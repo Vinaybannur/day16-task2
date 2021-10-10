@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Servey-Form</title>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+
+   
+</head>
+<body>
+    <form>
+    <h4 class="name">Name<span>*</span></h4>
+    <input type="text" class="fname" name="fname" required="required">
+    <input type="text" class="lname" name="lname" required><br/>
+    <label for="fname" class="first">First</label>
+    <label for="lname" class="last">Last</label><br/>
+
+    <h4 class="emailname">Email<span>*</span></h4>
+    <input type="email" class="email" name="email" required><br/><br/>
+
+    <h4 class="experience" >YourExperience<span>*</span></h4>
+    <div class="stars" >
+        
+          <input class="star star-5" id="star-5" type="radio" name="star" required/>
+          <label class="star star-5" for="star-5"></label>
+          <input class="star star-4" id="star-4" type="radio" name="star" required/>
+          <label class="star star-4" for="star-4"></label>
+          <input class="star star-3" id="star-3" type="radio" name="star" required/>
+          <label class="star star-3" for="star-3"></label>
+          <input class="star star-2" id="star-2" type="radio" name="star" required/>
+          <label class="star star-2" for="star-2"></label>
+          <input class="star star-1" id="star-1" type="radio" name="star" required/>
+          <label class="star star-1" for="star-1"></label>
+        
+      </div><br/>
+
+      <p class="para">Overall, how would you rate you experience with us?</p>
+
+      <h4 class="experience">How satisfied are you with<span>*</span></h4><br/>
+
+      <table>
+          <tr>
+              <td ></td>
+              <td>Very Unsatisfied</td>
+              <td>Unsatisfied</td>
+              <td>Neutral</td>
+              <td>satisfied</td>
+              <td>Very satisfied</td>
+          </tr>
+
+          <tr>
+            <td class="col1 color">Purchase</td>
+              <td class="color"><input type="radio" name="row1" class="row1" required></td>
+              <td class="color"><input type="radio" name="row1" class="row1" required></td>
+              <td  class="color"><input type="radio" name="row1" class="row1" required></td>
+              <td  class="color"><input type="radio" name="row1" class="row1" required></td>
+              <td  class="color"><input type="radio" name="row1" class="row1" required></td>
+          </tr>
+
+          <tr>
+            <td class="col1">Service</td>
+              <td><input type="radio" name="row2" class="row2" required></td>
+              <td><input type="radio" name="row2" class="row2" required></td>
+              <td><input type="radio" name="row2" class="row2" required></td>
+              <td><input type="radio" name="row2" class="row2" required></td>
+              <td><input type="radio" name="row2" class="row2" required></td>
+          </tr>
+
+          <tr>
+            <td class="col1 color">Company Overall</td>
+              <td  class="color"><input type="radio" name="row3" class="row3" required> </td>
+              <td  class="color"><input type="radio" name="row3" class="row3" required></td>
+              <td  class="color"><input type="radio" name="row3" class="row3" required></td>
+              <td  class="color"><input type="radio" name="row3" class="row3" required></td>
+              <td  class="color"><input type="radio" name="row3" class="row3" required></td>
+          </tr>
+      </table><br/><br/>
+
+      <h4 class="experience">How likely are you to<span>*</span></h4><br/>
+
+      <table>
+        <tr>
+            <td></td>
+            <td>Very Unlikely</td>
+            <td>Unlikely</td>
+            <td>Neutral</td>
+            <td>Likely</td>
+            <td>Very Likely</td>
+        </tr>
+
+        <tr>
+            <td class="col1 color">Buy from us again</td>
+              <td  class="color"><input type="radio" name="secrow1" class="secrow1" required></td>
+              <td  class="color"><input type="radio" name="secrow1" class="secrow1" required></td>
+              <td  class="color"><input type="radio" name="secrow1" class="secrow1" required></td>
+              <td  class="color"><input type="radio" name="secrow1" class="secrow1" required></td>
+              <td  class="color"><input type="radio" name="row1" class="secrow1" required></td>
+          </tr>
+
+          <tr>
+            <td class="col1">Recommend our product to other</td>
+              <td><input type="radio" name="secrow2" class="secrow2" required></td>
+              <td><input type="radio" name="secrow2" class="secrow2" required></td>
+              <td><input type="radio" name="secrow2" class="secrow2" required></td>
+              <td><input type="radio" name="secrow2" class="secrow2" required></td>
+              <td><input type="radio" name="secrow2" class="secrow2" required></td>
+          </tr>
+
+          <tr>
+            <td class="col1 color">Recommend our company to other</td>
+              <td  class="color"><input type="radio" name="secrow3" class="secrow3" required></td>
+              <td  class="color"><input type="radio" name="secrow3" class="secrow3" required></td>
+              <td  class="color"><input type="radio" name="secrow3" class="secrow3" required></td>
+              <td  class="color"><input type="radio" name="secrow3" class="secrow3" required></td>
+              <td  class="color"><input type="radio" name="secrow3" class="secrow3" required></td>
+          </tr>
+      </table><br/>
+
+      <h4 class="last">Additional comments or suggestion</h4>
+      <textarea class="comment" ></textarea> <br/><br/>
+
+      
+        <button class="submit">submit</button>
+     
+
+    </form>
+    
+</body>
+</html>
